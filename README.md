@@ -19,7 +19,7 @@ First, clone the repository to your local machine.
 
 ```bash
 git clone https://github.com/ajay0090/google-login.git
-
+```
 
 ### 2. Navigate to the Project Directory
 
@@ -27,7 +27,7 @@ After cloning the repository, navigate into the project folder.
 
 ```bash
 cd google-login
-
+```
 
 ### 3. Install Dependencies
 
@@ -35,7 +35,7 @@ This project uses npm to manage dependencies. Run the following command to insta
 
 ```bash
 npm install
-
+```
 
 ### 4. Set Up Google API Credentials
 
@@ -47,16 +47,15 @@ Enable the Google+ API (or Google Identity Services).
 Generate an OAuth 2.0 Client ID for your web application.
 Replace your the client_id in the environment variables with REACT_APP_GOOGLE_CLIENT_ID.
 
-
 ### 5. Start the Development Server
 
 Now, you're ready to run the application locally. Start the development server by running the following command:
 
 ```bash
 npm start
+```
 
 This will start the React development server at http://localhost:3000.
-
 
 ## Usage
 
@@ -64,14 +63,14 @@ When the app is running, you will see a Google Login Button.
 Clicking the button will allow you to authenticate with your Google account.
 After successful authentication, you will see your Google profile information.
 
+### Key Features:
 
-## Key Features:
 Google OAuth 2.0 authentication.
 Fetch user data after successful login.
 Use the data to personalize the user experience in your application.
 
-
 ## Contributing
+
 Contributions are welcome! If you'd like to contribute, follow these steps:
 
 Fork the repository.
