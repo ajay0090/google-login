@@ -7,7 +7,6 @@ This project demonstrates how to integrate **Google Login** in a React.js applic
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
