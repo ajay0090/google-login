@@ -18,4 +18,4 @@ Follow the steps below to get the project up and running on your local machine.
 First, clone the repository to your local machine.
 
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
+git clone https://github.com/ajay0090/google-login.git
