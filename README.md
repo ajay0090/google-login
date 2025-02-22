@@ -39,14 +39,18 @@ npm install
 
 ### 4. Set Up Google API Credentials
 
-To make the Google Login work, you need to have your Google API credentials. Follow these steps to set them up:
+To make the Google Login work, you need to have your **Google API credentials**. Follow these steps to set them up:
 
-Go to the Google Cloud Console.
-Create a new project (or use an existing one).
-Enable the Google+ API (or Google Identity Services).
-Generate an OAuth 2.0 Client ID for your web application.
-Replace your the client_id in the environment variables with REACT_APP_GOOGLE_CLIENT_ID.
+1. Go to the [Google Cloud Console](https://console.cloud.google.com/).
+2. Create a **new project** (or use an existing one).
+3. Enable the **Google+ API** (or **Google Identity Services**).
+4. Generate an **OAuth 2.0 Client ID** for your web application.
+5. Add the **client_id** in the environment variables or directly in the code where it’s used.
 
+- Ensure you have the correct **Redirect URIs** set.
+- Make sure to add the **JavaScript origins** in the Google Cloud Console for your app's domain.
+  
+  
 ### 5. Start the Development Server
 
 Now, you're ready to run the application locally. Start the development server by running the following command:
@@ -59,22 +63,27 @@ This will start the React development server at http://localhost:3000.
 
 ## Usage
 
-When the app is running, you will see a Google Login Button.
-Clicking the button will allow you to authenticate with your Google account.
-After successful authentication, you will see your Google profile information.
+- When the app is running, you will see a Google Login Button.
+- Clicking the button will allow you to authenticate with your Google account.
+- After successful authentication, you will see your Google profile information.
 
 ### Key Features:
 
-Google OAuth 2.0 authentication.
-Fetch user data after successful login.
-Use the data to personalize the user experience in your application.
+- Google OAuth 2.0 authentication.
+- Fetch user data after successful login.
+- Use the data to personalize the user experience in your application.
 
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute, follow these steps:
 
-Fork the repository.
-Create a new branch (git checkout -b feature-name).
-Commit your changes (git commit -am 'Add new feature').
-Push to the branch (git push origin feature-name).
-Create a new pull request.
+- Fork the repository.
+- Create a new branch (git checkout -b feature-name).
+- Commit your changes (git commit -am 'Add new feature').
+- Push to the branch (git push origin feature-name).
+- Create a new pull request.
+
+  
+## Additional Notes:
+- Ensure you have a working internet connection as this app requires fetching data from the Google API.
+- If you encounter any issues, feel free to open an issue in the GitHub repository.
